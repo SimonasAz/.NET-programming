@@ -25,8 +25,8 @@ class Program{
 
         while (input != number)
         {
-            input = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Try another number: ");
+            input = Convert.ToInt32(Console.ReadLine());
             if (input < number) Console.WriteLine("Too low");
             else if (input > number) Console.WriteLine("Too high");
             else Console.WriteLine("Congrats you've guessed the number");
